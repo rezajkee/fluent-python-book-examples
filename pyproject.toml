@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "fluent-python-book-examples"
+version = "0.1.0"
+description = ""
+authors = ["Anton Shefer <rezajkee@mail.ru>"]
+readme = "README.md"
+packages = [{include = "fluent_python_book_examples"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+ipython = "^8.8.0"
+jupyter = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
